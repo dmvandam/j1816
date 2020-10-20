@@ -38,15 +38,15 @@ The steps for data analysis are as follows.
 ### File Structure
 
 j1816 : contains all the jupyter-notebooks
-    - Code : contains all the relevant functions for each of the notebooks
-    - data : contains all the data files
-        - photometry : light curves for J1816
-        - limb-darkening?
-    - models : contains all the model data with mcmc backends (.h5) and best fits (.npy)
-        - best_fits
-        - mcmc_backedns (can be requested via e-mail)
-    - plots : contains all the plots
-        - paper : all plots used for the paper
-        - parameters : has the parameter maps for J1816
-        - period_folding : shows the plots used do determine interesting periods (can be requested via e-mail)
-    - pyPplus : code package by Rein & Ofir 2019 (https://github.com/EdanRein/pyPplusS)
+  - Code : contains all the relevant functions for each of the notebooks
+  - data : contains all the data files
+      - photometry : light curves for J1816
+      - limb-darkening?
+  - models : contains all the model data with mcmc backends (.h5) and best fits (.npy)
+      - best_fits
+      - mcmc_backedns (can be requested via e-mail)
+  - plots : contains all the plots
+      - paper : all plots used for the paper
+      - parameters : has the parameter maps for J1816
+      - period_folding : shows the plots used do determine interesting periods (can be requested via e-mail)
+  - pyPplus : code package by Rein & Ofir 2019 (https://github.com/EdanRein/pyPplusS)
