@@ -36,6 +36,7 @@ The steps for data analysis are as follows.
 <em>Result</em>: These are presented in the plots folder in "plots/parameters/"
 
 ### File Structure
+
 j1816 : contains all the jupyter-notebooks
     - Code : contains all the relevant functions for each of the notebooks
     - data : contains all the data files
