@@ -1,5 +1,5 @@
 # j1816
-This repository contains all the code to analyse the star: ASASSN-V J181654.06-202117.6 (aka J1816).
+This repository contains all the code to analyse the star: ASASSN-V J181654.06-202117.6 (Gaia DR2 4094361919233083520) a.k.a. J1816.
 This is separated into several notebooks and a certain file structure, which is presented at the end of this README.
 
 The steps for data analysis are as follows.
