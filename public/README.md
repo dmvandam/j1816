@@ -7,11 +7,11 @@ This folder is intended for all those people not interested in the script files 
 The discovery of J1816 was made by Z. Way et al. 2020 (ATel #13818 - http://www.astronomerstelegram.org/?read=13818) using data collected from ASAS-SN.
 The star showed a sudden steep decline in magnitude that was highly asymmetric. On discovery this star was mentioned in a tweet and picked up by my supervisor (Matt Kenworthy - Leiden Observatory) and I (Dirk van Dam - Leiden Observatory).
 
-INCLUDE PLOT OF JUST ASAS-SN DATA
+![ASAS-SN Alert](01_asassn_alert.png)
 
-We are specifically interested in planet formation focused on the discovery and characterisation of circumplanetary disks / ring-systems and anything with an asymmetric eclipse must be indicative of non-spherical occulter, which produces the possibility that the object is a forming planet in an inclined, tilted and possibly offset (impact parameter != 0) from the star's centre.
+We are specifically interested in planet formation focused on the discovery and characterisation of circumplanetary disks / ring-systems and anything with an asymmetric eclipse must be indicative of non-spherical occulter, which produces the possibility that the object is a forming planet in an inclined, tilted and possibly offset (impact parameter &ne; 0) from the star's centre. As soon as sub-structure appears it could be indicative of several rings.
 
-INCLUDE A GIF SHOWING INCLINATION, TILT AND IMPACT PARAMETER
+![Disk Model Animation](02_disk_model_animation.gif)
 
 Upon this discovery an observation campaign was set-up with the AAVSO (see the Alert Notice 710 - https://www.aavso.org/aavso-alert-notice-710, and the forums: Young Stellar Objects - https://www.aavso.org/asassn-v-j181654-202117-campaign-01, and the campaign forum - https://www.aavso.org/asassn-v-j181654-202117-campaign).
 
@@ -35,7 +35,7 @@ Open (no) filter observations reduced to V magnitudes (CV filter) were performed
 
 Data collected from these observers can be found on the AAVSO website by looking for ASASSN-V J181654.06-202117.6 and is still being collected at this moment.
 
-AAVSO IMAGE OF ALL THE DATA
+![AAVSO Data](03_aavso_data.png)
 
 ## Professional Telescopes
 
@@ -43,7 +43,7 @@ The archival data from survey telescopes was added to this load of data. The dat
 
 This significantly extends the light curve producing the following plot.
 
-IMAGE OF ALL THE DATA THAT HAS COME IN AAVSO + PROFESSIONAL
+![All Photometry](04_all_photometry.png)
 
 ## Light Curve Analysis
 
@@ -76,9 +76,11 @@ Before all the data can be combined to produce one light curve showing the key f
 
 5) <strong>Binning the Data (per observer per band)</strong>: nightly bins are performed to reduce scatter. 
 
-INCLUDE PLOT OF THE DATA UPTIL NOW
+![Binned Light Curve](06_binned_light_curve.png)
 
 6) <strong>Aligning the Data (per observer, per band)</strong>: sometimes due to for example camera sensitivities, differences in the manufacturing quality of the filters, moon/background influences, choice of reference stars...etc. it is possible that the measurements of one observer are offset w.r.t. another one. To see this very clearly plot a light curve of J1816 with the AAVSO web interface and compare the data submitted by DFS and HMB (similar cadence, clear offset in multiple filters). We therefore look at all the data in one band and try to align the different observers to reduce the scatter of the light curve. <em>This is done by eye</em>.
+
+![Alignment](07_alignment.gif)
 
 7) <strong>Remove High Error Data (per band)</strong>: we remove all data with high errors (2.0%).
 
@@ -88,7 +90,7 @@ INCLUDE PLOT OF THE DATA UPTIL NOW
 
 10) <strong>Final Alignment (per band)</strong>: finally we need to align the different photometry per band w.r.t. each other. Due to the previous alignments performed the bands may no longer be aligned w.r.t. each other. So we perform flux shifts (<em>again by eye</em>) to align the data. Note that we want to align the data for the quiescent star (i.e. not during the eclipse), because we want the normalised flux of the star to be independent of colour. This enables us to determine whether the eclipse depth as colour dependent, which provides insight into the composition of the eclipsing objects composition.
 
-![Final Light Curve](07_final_light_curve.png)
+![Final Light Curve](08_final_light_curve.png)
 
 ### Prediction
 
