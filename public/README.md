@@ -1,11 +1,14 @@
 # Public
 
-This folder is intended for all those people not interested in the script files and data reductions but are interested in the results.
+This folder is intended for all those people not interested in the script files and data reductions but are interested in the discovery, analysis and results.
 
 ## Discovery
 
 The discovery of J1816 was made by Z. Way et al. 2020 (ATel #13818 - http://www.astronomerstelegram.org/?read=13818) using data collected from ASAS-SN.
 The star showed a sudden steep decline in magnitude that was highly asymmetric. On discovery this star was mentioned in a tweet and picked up by my supervisor (Matt Kenworthy - Leiden Observatory) and I (Dirk van Dam - Leiden Observatory).
+
+INCLUDE PLOT OF JUST ASAS-SN DATA
+
 We are specifically interested in planet formation focused on the discovery and characterisation of circumplanetary disks / ring-systems and anything with an asymmetric eclipse must be indicative of non-spherical occulter, which produces the possibility that the object is a forming planet in an inclined, tilted and possibly offset (impact parameter != 0) from the star's centre.
 
 INCLUDE A GIF SHOWING INCLINATION, TILT AND IMPACT PARAMETER
@@ -14,13 +17,20 @@ Upon this discovery an observation campaign was set-up with the AAVSO (see the A
 
 ## AAVSO Campaign
 
-Following the setting-up of the observing campaign, several observers took it upon themselves to set their scopes on J1816 and provide data in different filters and different cases. 
+Following the setting-up of the observing campaign, several observers took it upon themselves to set their scopes on J1816 and provide data in different filters and different cases.
+ 
 Visual observations were performed by Luiz Antonio Araujo (ALRB).
+
 Johnson B filter observations were performed by Sjoerd Dufoer (DFS), Franz-Josef Hambsch (HMB), Nathan Krumm (KNAA), Gordon Myers (MGW), Mervyn Millward (MMEA), the Al Sadeem Astronomy Observatory (OAAA), Erik Schwendeman (SDM), Tonny Vanmunster (VMT) and Timothy Weaver (WTIC).
+
 Johnson V filter observations were performed by Francisco Cuevas Naranjo (CFJB), DFS, Grzegorz Duszanowicz (DGRA), HMB, KNAA, MGW, MMEA, Michael Miller (MMGA), OAAA, SDM, Andars Timar (TIA), Thiam Guan Tan (TTG), VMT and WTIC.
+
 Cousins R filter observations were performed by CFJB, DFS, HMB, KNAA, MGW, MMEA, OAAA, Don Starkey (SDB) and VMT.
+
 Cousins I filter observations were performed by HMB, KNAA, MGW, SDM, Richard Schmidt (SREB) and VMT.
+
 Sloan g filter observations were performed by Peter Nelson (NLX).
+
 Open (no) filter observations reduced to V magnitudes (CV filter) were performed by Juan Francisco Calvo Fernandez (CJUC), DFS, Juan Pablo Dos Santos (DJUA) and VMT.
 
 Data collected from these observers can be found on the AAVSO website by looking for ASASSN-V J181654.06-202117.6 and is still being collected at this moment.
@@ -77,6 +87,8 @@ INCLUDE PLOT OF THE DATA UPTIL NOW
 9) <strong>Rebinning the Data (per band)</strong>: we perform a nightly bin for each band.
 
 10) <strong>Final Alignment (per band)</strong>: finally we need to align the different photometry per band w.r.t. each other. Due to the previous alignments performed the bands may no longer be aligned w.r.t. each other. So we perform flux shifts (<em>again by eye</em>) to align the data. Note that we want to align the data for the quiescent star (i.e. not during the eclipse), because we want the normalised flux of the star to be independent of colour. This enables us to determine whether the eclipse depth as colour dependent, which provides insight into the composition of the eclipsing objects composition.
+
+![Final Light Curve](07_final_light_curve.jpg)
 
 ### Prediction
 
