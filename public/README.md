@@ -65,16 +65,12 @@ This was then fit with 10 sinusoids providing a model for the stellar variabilit
 |----------------------|----------------------|
 |![B 1](05_Bband1.png) | ![B 2](05_Bband2.png)|
 | V band 1             | V band 2             |
-|----------------------|----------------------|
 |![V 1](05_Vband1.png) | ![V 2](05_Vband2.png)|
 | R band 1             | R band 2             |
-|----------------------|----------------------|
 |![R 1](05_Rband1.png) | ![R 2](05_Rband2.png)|
 | I band 1             | I band 2             |
-|----------------------|----------------------|
 |![I 1](05_Iband1.png) | ![I 2](05_Iband2.png)|
 | CV band 1            | CV band 2            |
-|----------------------|----------------------|
 |![CV1](05_CVband1.png)|![CV2](05_CVband2.png)|
 
 Note that this model must be performed on the flux values of the star (not the magnitude) and this is the reason why the light curve is in flux.
