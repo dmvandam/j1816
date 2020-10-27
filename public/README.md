@@ -88,7 +88,7 @@ INCLUDE PLOT OF THE DATA UPTIL NOW
 
 10) <strong>Final Alignment (per band)</strong>: finally we need to align the different photometry per band w.r.t. each other. Due to the previous alignments performed the bands may no longer be aligned w.r.t. each other. So we perform flux shifts (<em>again by eye</em>) to align the data. Note that we want to align the data for the quiescent star (i.e. not during the eclipse), because we want the normalised flux of the star to be independent of colour. This enables us to determine whether the eclipse depth as colour dependent, which provides insight into the composition of the eclipsing objects composition.
 
-![Final Light Curve](07_final_light_curve.jpg)
+![Final Light Curve](07_final_light_curve.png)
 
 ### Prediction
 
