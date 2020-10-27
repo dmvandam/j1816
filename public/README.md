@@ -45,6 +45,9 @@ This significantly extends the light curve producing the following plot.
 
 ![All Photometry](04_all_photometry.png)
 
+Note 1: ASAS data has been separated by field (as each has varying offsets w.r.t. the other field).
+Note 2: not all the amateur observers mentioned are in the legend, and this is because data was only plotted for an observer if they provided more than 10 data points.
+
 ## Light Curve Analysis
 
 With this incredible stream of data it is possible to do significant analysis of the light curve.
@@ -92,5 +95,44 @@ Before all the data can be combined to produce one light curve showing the key f
 
 ![Final Light Curve](08_final_light_curve.png)
 
-### Prediction
+### Eclipse Depth Variation
 
+You may notice that the eclipse around JD = 2459060 changes depth w.r.t. colour.
+It is deepest in B, then V, then R and presumably then I.
+This is indicative of eclipsing object being composed of dust.
+<em>Updates forthcoming</em>.
+
+### Steady Rise
+
+You might notice that there is a steady rise in the flux of the star as time passes. 
+This is an interesting feature which may be due to the star itself and is currently under investigation through archival data. 
+This could be the reason why the eclipse centred about JD = 2459125 shows the eclipse depth variation sometimes being in reverse (I, R, V, B).
+<em>Updates forthcoming</em>).
+
+## Prediction
+
+One of the noteworthy things seen here is that we have two eclipses of similar depths (~15%) and similar durations (~8 days), so I made the prediction that the midpoint of the eclipse has passed. 
+By taking the point between these two eclipses and reflect the left half of the data over the midpoint I could make a prediction of how the light curve would evolve and compare it to the data being collected.
+Doing this produces the following plot.
+
+![Prediction](09_prediction.png)
+
+The cyan line is the prediction for the deepest part of the eclipse, which is on the <strong>9th of November 2020</strong>.
+Unfortunately the star also appears to be setting for the season (i.e. the Earth is in a position where the Sun is now between the Earth and J1816) right around this time.
+A new call for observers will be issued out shortly including spectroscopy to determine the composition of the dust and hopefully keep track of this star for as long as possible.
+
+## Further Analysis
+
+There is much more analysis to be done.
+
+1) Look in archival data to see if there is evidence of a previous eclipse.
+
+2) There appears to be evidence of a drop and steady rise ocurring in the past in the ASAS-SN photometry.
+
+3) There appears to be evidence of similar eclipses to those noted at JD = 2459055 and JD = 2459125 in ASAS-SN data.
+
+4) Ring models that fit the light curve. Note that these only really make sense once we are certain the eclipse has terminated.
+
+
+
+<em>This page was last updated on the 27th of October 2020</em>. 
